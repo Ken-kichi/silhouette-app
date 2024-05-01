@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import init, { convert_to_silhouette } from '../pkg/webassembly';
+import init, { convert_to_silhouette } from '@/pkg/webassembly'
 
 export const Home = ()=>{
   useEffect(()=>{
